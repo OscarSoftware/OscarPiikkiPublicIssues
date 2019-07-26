@@ -16,6 +16,7 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
   - Known issues:
     - Payment methods are still hardcoded, and may not be working correctly
     - In the photo review screen the "advanced" cropping, contrast and brightness features are not implemented
+    - The chart will not work if u close and reopen the app. Only works after login.. sigh
     - Settings screens design is poor and will be reworked later
     - User info in the settings screen is not implemented
     - Statistics screen is not implemented
