@@ -4,7 +4,7 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
 # Beta 4 release notes
   - Whats new:
     - OpenID Connect implementation to Piikki
-      - User is now redirected to a seperate login page provided by Oscar to sign in
+      - User is now redirected to a separate login page provided by Oscar to sign in
       - Much better error handling for users signup errors
     - Payment methods are no longer hardcoded. They are now received from Cloud and ready to be used in Piikki
     - Target selection has been reworked and should work much more smoothly now
