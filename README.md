@@ -1,7 +1,7 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
-# Release 19.2.0 notes
+# 19.2.0 Release notes
  - What's new:
       - Statistics screen added
         - User can see how many sent, unhandled and unsent receipts there are
