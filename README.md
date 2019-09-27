@@ -1,6 +1,33 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# Release 19.2.0 notes
+ - What's new:
+      - Statistics screen added
+        - User can see how many sent, unhandled and unsent receipts there are
+        - User can browse costs by target 
+      - Unhandled receipt statuscode change to "KASITTELEMATON"
+      - Default account can be selected from settings
+      - Receipts in UI are mostly updated through SQLite
+        - Receipts are synced from cloud to SQLite once during startup
+        - When user slides to refresh, receipts are synced again from cloud to SQLite
+        - Receipt updates, additions and deletions don't cause full cloud refresh, only individual sync to SQLite
+      - Perfomance updates
+        - Opening filters has no more lag
+        - Receipt search view initially shows only 10 receipts but more receipts can be loaded from the button below the list
+        - Changing of screens happens much faster as screen updates are only done when necessary
+      - Camerascreen improvements
+        - Transparent screen when taking picture
+        - Shutter click sound on android
+      - PDF upload support
+        - As of now previewing PDF inside app not possible. Shows only an icon
+      - Receipt can have negative price
+      - Correct user account details shown in settings screen
+ - Known issues: 
+     - If a screen is loading something, user should wait for loading to finish before proceeding to next page
+        - Can cause out of sync data -> slide to refresh to update again. 
+     - If user data fetch fails (accounts, targets, etc) there is no way to update the data but to reboot the app
+     
 # Beta 4 release notes
   - Whats new:
     - OpenID Connect implementation to Piikki
@@ -41,32 +68,6 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
     - User info in the settings screen is not implemented
     - Statistics screen is not implemented
     - (PRO) Image can be opened only once.. :D
-# Release 19.2.0 notes
-    - What's new:
-      - Statistics screen added
-        - User can see how many sent, unhandled and unsent receipts there are
-        - User can browse costs by target 
-      - Unhandled receipt statuscode change to "KASITTELEMATON"
-      - Default account can be selected from settings
-      - Receipts in UI are mostly updated through SQLite
-        - Receipts are synced from cloud to SQLite once during startup
-        - When user slides to refresh, receipts are synced again from cloud to SQLite
-        - Receipt updates, additions and deletions don't cause full cloud refresh, only individual sync to SQLite
-      - Perfomance updates
-        - Opening filters has no more lag
-        - Receipt search view initially shows only 10 receipts but more receipts can be loaded from the button below the list
-        - Changing of screens happens much faster as screen updates are only done when necessary
-      - Camerascreen improvements
-        - Transparent screen when taking picture
-        - Shutter click sound on android
-      - PDF upload support
-        - As of now previewing PDF inside app not possible. Shows only an icon
-      - Receipt can have negative price
-      - Correct user account details shown in settings screen
-    - Known issues: 
-      - If a screen is loading something, user should wait for loading to finish before proceeding to next page
-        - Can cause out of sync data -> slide to refresh to update again. 
-      - If user data fetch fails (accounts, targets, etc) there is no way to update the data but to reboot the app
       
         
         
