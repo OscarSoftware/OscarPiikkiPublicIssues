@@ -6,7 +6,7 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
       - Statistics screen added
         - User can see how many sent, unhandled and unsent receipts there are
         - User can browse costs by target 
-      - Unhandled receipt statuscode change to "KASITTELEMATON"
+      - Unhandled receipt status code change to "KASITTELEMATON"
       - Default account can be selected from settings
       - Receipts in UI are mostly updated through SQLite
         - Receipts are synced from cloud to SQLite once during startup
@@ -26,9 +26,9 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
  - Known issues: 
      - If a screen is loading something, user should wait for loading to finish before proceeding to next page
         - Can cause out of sync data -> slide to refresh to update again. 
-     - If user data fetch fails (accounts, targets, etc) there is no way to update the data but to reboot the app
+     - If user data fetch fails (accounts, targets, payment methods and currencies) there is no way to update the data but to  reboot the app
      - As uploading receipt data and images don't happen on a single transaction, it is theoretically possible to manage
-       to upload receipt without images. 
+       to upload a receipt without images. 
      
 # Beta 4 release notes
   - Whats new:
