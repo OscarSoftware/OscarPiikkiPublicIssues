@@ -1,6 +1,32 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 19.2.1 Release notes
+ - What's new:
+      - PDF Preview
+        - User can preview PDFs as they are converted to images in cloud and fetched by the app.
+      - Default screen on startup
+        - User can select a default startup screen from settings. When the app starts it opens to this screen. 
+      - General data updating logic improved
+        - CRUD-operations more reliable as there are global providers and functions for state access/manipulation.
+        - Data is always up to date as changes are reflected globally. 
+      - Styling changes
+        - Settings screen redesigned.
+        - More loadingcomponents/toasts added and loading icon changed.
+        - Toast component redesigned. Automatical stacking and onPress dismiss. Also removed buggy layoutanimation.
+      - Permormance improvements
+        - Receipt images were previously fetched individually for each receipt. Loading/updating of receipts is now much  
+          quicker as images are bulk fetched.
+        - User has quicker access to new data when switching between screens as the data is now updated in background
+          when changes happen. 
+      - iOS Logout works 
+        - User couldn't logout without clearing cache. 
+ - Known issues: 
+     - PDFs can only be viewed individually
+        - User cannot view PDFs and images simultaneously inside preview carousel. When user clicks on a PDF-icon, only 
+          the PDF pages are shown. Normal images have to be viewed separately. 
+     
+
 # 19.2.0 Release notes
  - What's new:
       - Statistics screen added
