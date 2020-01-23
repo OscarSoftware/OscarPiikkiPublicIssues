@@ -1,6 +1,14 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 19.2.4 Release notes
+ - What's new:
+      - PDF viewer
+        - PDFs are no longer converted to images in backend, and they can be viewed inside the app
+      - Image manipulation
+        - Perspective cropping
+        - Black and white image
+
 # 19.2.1 Release notes
  - What's new:
       - PDF Preview
