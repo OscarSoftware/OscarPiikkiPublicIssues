@@ -1,6 +1,19 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.0.0 Release notes
+ - What's new:
+      - Select default value on mandatory fields if only 1 value is present
+      - Images now have a much higher quality
+      - Users can now select default payment 
+      - Unify number formatting
+ - Bug fixes:
+      - Fix alerts toasts appearing on top of each other
+      - Fix data appearing on wrong month in statistics
+      - Fix partially loaded images
+      - Users now correctly stay logged in if chosen so
+      - Possible fix for decimal point not appearing on Samsung keyboards
+
 # 19.2.4 Release notes
  - What's new:
       - PDF viewer
