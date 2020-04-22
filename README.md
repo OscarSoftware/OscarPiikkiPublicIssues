@@ -1,6 +1,15 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.0.1 Release notes
+ - What's new:
+      - Multiple backends
+        - Own settings for each backend
+        - Save images seperately for each backend
+        - New settings: Ask which company (backend) to use when signing in
+      - On POST, send images only if they have been changed
+      - Fix statistics with foreign currencies
+        
 # 20.0.0 Release notes
  - What's new:
       - Select default value on mandatory fields if only 1 value is present
