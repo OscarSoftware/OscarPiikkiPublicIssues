@@ -1,6 +1,12 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.0.2 Release notes
+ - Bugfixes
+   - Updated dependencies to fix camera / gallery bug on Android SDK 21 and 22
+   - Fix icon clipping in camera screen
+   - Disable changing backend in camera and photo review screens
+
 # 20.0.1 Release notes
  - What's new:
       - Multiple backends
