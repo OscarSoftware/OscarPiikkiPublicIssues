@@ -1,6 +1,22 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.1.0 Release notes
+ - Push notifications functionality added
+   - Disabled until real usage is added
+ - Update splash screen for newer iPhone devices
+ - Image upload quality tweaking
+   - New attempt on "sweet spot" between quality and file size 
+ - Bugfixes
+   - Reduce image upload sizes for iPhone
+   - Removing and updating photos now works correctly
+   - Fix component states not resetting on sign out
+   - Camera sound unloads on end, saving memory
+   - Fix image resolution scaling
+   - Fix crop inaccuracy on iOS
+   - Fix scroll bar sometimes appearing in the middle in receipt editing screen
+   - Fix image cache management
+
 # 20.0.2 Release notes
  - Bugfixes
    - Updated dependencies to fix camera / gallery bug on Android SDK 21 and 22
