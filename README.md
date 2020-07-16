@@ -16,6 +16,9 @@ Public repository for Oscar Piikki issues. Meant to be used by people who test a
    - Fix crop inaccuracy on iOS
    - Fix scroll bar sometimes appearing in the middle in receipt editing screen
    - Fix image cache management
+   - Safe areas added to components needing them
+   - Fixed navigation issues
+   - Updated dependencies
 
 # 20.0.2 Release notes
  - Bugfixes
