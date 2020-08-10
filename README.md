@@ -1,6 +1,20 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.1.1 Release notes
+ - Add AI functionality
+   - Use ML kit to recognize text from images
+   - Try to parse required information from that data
+   - Ask for which values to keep
+   - Add setting to disable AI functionality
+   - Enabled by default
+ - Bug fixes
+   - Fix image cropping on android
+   - Fix error on photo review screen when tapping accept multiple times
+   - Remove now unnecessary db migration
+   - Fix accept button being stuck under keyboard on iOS (receipt editing view)
+ - Optimizations to make app more responsive
+
 # 20.1.0 Release notes
  - Push notifications functionality added
    - Disabled until real usage is added
