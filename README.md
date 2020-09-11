@@ -1,6 +1,18 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.2.0 Release notes
+ - AI support for PDF files
+ - Automatic cropping
+   - Use Vision on iOS, OpenCV on Android
+   - Display polygon cropper with detected rectangle after detection
+   - Can be turned off in settings
+ - Bug fixes
+   - Fix cropping being out of bounds after multiple crops
+   - Fix saving to gallery on Android 10
+   - Fix crash on statistics screen on Android
+   - Fix logging out on iOS
+
 # 20.1.1 Release notes
  - Add AI functionality
    - Use ML kit to recognize text from images
