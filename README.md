@@ -1,6 +1,11 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.2.2 Release notes
+ - Fix crash on android with empty photos
+ - Add iCloud Documents entitlement to iOS build
+ - Remove unnecessary permission dialog
+
 # 20.2.1 Release notes
  - Fix crash when saving to images to library on some devices
 
