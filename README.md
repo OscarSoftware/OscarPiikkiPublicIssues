@@ -1,6 +1,10 @@
 # OscarPiikkiPublicIssues
 Public repository for Oscar Piikki issues. Meant to be used by people who test and use Piikki mobile app. Testers can report bugfixes and imporovement suggestions through the issues page of this repository.
 
+# 20.2.3 Release notes
+ - Fix crash on iOS when clicking on Add PDF-icon
+ - Other bug fixes via dependency updates
+
 # 20.2.2 Release notes
  - Fix crash on android with empty photos
  - Add iCloud Documents entitlement to iOS build
